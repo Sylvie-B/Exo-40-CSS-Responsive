@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+#container{
+    background-color: dimgrey;
+    width: 80%;
+    margin: auto;
+}
+
+#div01, #div02, #div03{
+    display: inline-block;
+    width: 20%;
+    margin: 0 5px 0 5px;
+}
+
+#div01{
+    width: 40%;
+    background-color: cornflowerblue;
+    border: dashed 1px darkblue;
+}
+
+#div02{
+    background-color: coral;
+    border: solid 1px darkturquoise;
+}
+
+#div03{
+    background-color: blueviolet;
+    border: dashed 1px aquamarine;
+}
+
+@media screen and (max-width: 600px){
+    #container{
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    #div01, #div02, #div03{
+        display: block;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 350px){
+    a, span, #div03{
+        display: none;
+    }
+}
