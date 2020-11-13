@@ -45,6 +45,7 @@ html{
     #div01, #div02, #div03{
         display: block;
         width: 100%;
+        margin: 0;
     }
 }
 
